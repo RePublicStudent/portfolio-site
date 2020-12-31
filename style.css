@@ -94,6 +94,10 @@ body {
 }
 
 /* Skills */
+#skills {
+  padding: 32px;
+}
+
 #skills .list {
   margin-top: 16px;
   display: flex;
@@ -150,4 +154,37 @@ body {
 
 .skill-image {
   width: 125px;
+}
+
+/* Portfolio */
+
+#portfolio {
+  background: #fdf1e2;
+}
+
+#portfolio .header {
+  text-align: center;
+  color: #c3832d;
+}
+
+#portfolio .h2 {
+  font-size: 40px;
+}
+
+#projects {
+  margin: 32px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  list-style: none;
+}
+
+#projects .list-item {
+  transition: transform 0.3s ease-in-out;
+}
+
+#projects .list-item:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 }
