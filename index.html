@@ -162,11 +162,17 @@
         <!-- Contact -->
         <section id="contact" class="section">
           <div class="section-contents">
-            <form action="" id="contactForm">
+            <form
+              action="POST"
+              id="contactForm"
+              name="contact"
+              data-netlify="true"
+            >
               <h3 class="h3">Contact Me</h3>
               <input
                 id="emailInput"
                 type="email"
+                name="email"
                 placeholder="Your Email Address"
               />
               <textarea
