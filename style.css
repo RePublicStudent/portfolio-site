@@ -188,3 +188,47 @@ body {
   cursor: pointer;
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 }
+
+/* Contact */
+#contact,
+.footer {
+  color: white;
+  background: #1f2132;
+}
+
+#contactForm {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+#contactForm .h3 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+#emailInput,
+#projectInput,
+#submitContact {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+#emailInput,
+#projectInput {
+  padding: 8px;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 16px;
+  background: #fdf1e2;
+  color: #c3832d;
+  border: 0;
+  margin: 8px 0;
+}
+
+.footer {
+  padding: 8px 0;
+  text-align: center;
+}
