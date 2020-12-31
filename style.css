@@ -78,6 +78,7 @@ body {
   margin: 0 auto;
 }
 
+/* Hero */
 #hero {
   padding-top: 75px;
   background: #b0ebe9;
@@ -90,4 +91,63 @@ body {
 
 #hero .h1 {
   font-size: 48px;
+}
+
+/* Skills */
+#skills .list {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#skills .list-item {
+  display: inline-block;
+}
+
+#htmlBadge,
+#cssBadge,
+#jsBadge {
+  position: relative;
+  border-radius: 50em;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#htmlBadge {
+  background: #f37832;
+}
+
+#htmlBadge::after {
+  position: absolute;
+  content: "HTML5";
+  bottom: -25px;
+  left: 54px;
+}
+
+#cssBadge::after {
+  position: absolute;
+  content: "CSS3";
+  bottom: -25px;
+  left: 54px;
+}
+
+#jsBadge::after {
+  position: absolute;
+  content: "JavaScript";
+  bottom: -25px;
+  left: 45px;
+}
+
+#cssBadge {
+  background: #018ed5;
+}
+
+#jsBadge {
+  background: #f8d43d;
+}
+
+.skill-image {
+  width: 125px;
 }
